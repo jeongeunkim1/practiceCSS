@@ -1,0 +1,21 @@
+.parent {
+  background-color: aquamarine;
+}
+
+.child,
+.other {
+  height: 50px;
+  color: azure;
+  line-height: 50px;
+  text-indent: 20px;
+}
+
+.child {
+  width: 500px;
+  background-color: burlywood;
+}
+
+.other {
+  width: 100px;
+  background-color: crimson;
+}
