@@ -2,15 +2,13 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* ▼ WHERE YOUR CODE BEGINS */
-
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .sr-only {
@@ -18,7 +16,6 @@ body {
   z-index: -100;
   width: 1px;
   height: 1px;
-  overflow: hidden;
   opacity: 0;
 }
 
@@ -32,16 +29,15 @@ body {
   position: relative;
   width: 300px;
   height: 200px;
-  border-radius: 6px;
   margin-right: 24px;
-  background-image: url(./assets/img-house.jpg);
+  border-radius: 6px;
+  background-image: url(./assets/img-house-vertical.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  overflow: hidden;
 }
 
-.card-image .like-button {
+.like-button {
   position: absolute;
   top: 12px;
   left: 12px;
@@ -73,10 +69,10 @@ body {
   padding: 1px 8px;
   margin-right: 6px;
   border-radius: 4px;
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.428571428571429;
-  color: #fff;
   text-transform: uppercase;
   background-color: #92174D;
 }
@@ -93,9 +89,7 @@ body {
 }
 
 .property-rate strong {
-  font-weight: 400;
   color: #151B26;
-  margin: 0;
 }
 
 .property-rate span {
@@ -120,7 +114,6 @@ body {
   font-size: 20px;
   line-height: 1.6;
   color: #151B26;
-  font-weight: 400;
 }
 
 .property-detail {
@@ -135,10 +128,17 @@ body {
 }
 
 .property-detail dd span:last-child::after {
-  content: '';
+  content: "";
   margin: 0;
 }
 
 .property-detail div:first-child {
   margin-bottom: 8px;
 }
+
+
+
+
+
+
+
