@@ -31,10 +31,11 @@ body {
   height: 200px;
   margin-right: 24px;
   border-radius: 6px;
-  background-image: url(./assets/img-house-vertical.jpg);
+  background-image: url(./assets/img-house.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  overflow: hidden;
 }
 
 .like-button {
