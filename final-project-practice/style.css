@@ -287,3 +287,70 @@ p {
   color: #2B292D;
 }
 
+/* Curriculum */
+
+.curriculum {
+  padding: 80px 15px;
+}
+
+.curriculum-header strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #0189D1;
+  font-weight: 700;
+}
+
+.curriculum-header h1 {
+  margin-bottom: 24px;
+  font-size: 34px;
+  line-height: 1.058823529411765;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.curriculum-header p {
+  margin-bottom: 32px;
+}
+
+.curriculum-header button {
+  margin-bottom: 48px;
+  padding: 12px 35px;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  background-color: #3040C4;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.curriculum-details p {
+  font-size: 15px;
+  line-height: 1.466666666666667;
+}
+
+.detail-1 {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
