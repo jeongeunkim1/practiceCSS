@@ -400,6 +400,7 @@ input:placeholder-shown {
   background-color: #3040C4;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .banner-form p {
@@ -415,4 +416,20 @@ input:placeholder-shown {
   text-decoration: underline;
 }
 
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 24px 15px;
+  font-size: 14px;
+  line-height: 1.714285714285714;
+  color: #807F81;
+}
 
+.terms,
+.privacy,
+.license {
+  margin-bottom: 8px;
+}
