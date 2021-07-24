@@ -107,6 +107,24 @@ p {
   margin-right: 8px;
 }
 
+/* Service */
+.service {
+  padding: 80px 0;
+  background-color: #F4F5F7;
+}
+
+.service .col-12:first-child {
+  margin-bottom: 40px;
+}
+
+.service-title {
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 1.36363636363636;
+  letter-spacing: -0.04em;
+  color: #2B292D;
+}
+
 /* =>768px (Desktop) */
 @media screen and (min-width: 768px) {
   /* Reset CSS */
@@ -141,6 +159,16 @@ p {
   .landing .button-group .fill-button:first-child {
     margin-right: 16px;
   }
+
+  /* Service */
+  .service-title {
+    font-size: 26px;
+    line-height: 1.307692307692308;
+  }
+
+  .service .col-12:first-child {
+    margin-bottom: 0;
+  }  
 }
 
 /* Custom Grid System - Fix container width */
