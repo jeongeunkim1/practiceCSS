@@ -70,6 +70,26 @@ p {
   opacity: 0.7;
 }
 
+.section {
+  padding: 80px 0;
+}
+
+.section-category {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.section-title {
+  margin-bottom: 24px;
+  font-size: 34px;
+  line-height: 1.058823529411765;
+  letter-spacing: -0.03em;
+  color: #2B292D;
+}
+
 /* Landing */
 .landing {
   background-color: #FDDED8;
@@ -125,6 +145,11 @@ p {
   color: #2B292D;
 }
 
+/* Program */
+.program .section-category {
+  color: #009B4D;
+}
+
 /* =>768px (Desktop) */
 @media screen and (min-width: 768px) {
   /* Reset CSS */
@@ -138,6 +163,22 @@ p {
     height: 56px;
     font-size: 18px;
     line-height: 1.55555555555555;
+  }
+
+  .section {
+    padding-bottom: 96px;
+  }
+
+  .section-category {
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 1.090909090909091;
+  }
+
+  .section-title {
+    margin-bottom: 32px;
+    font-size: 56px;
+    line-height: 1;
   }
 
   /* Landing */
@@ -168,7 +209,12 @@ p {
 
   .service .col-12:first-child {
     margin-bottom: 0;
-  }  
+  }
+  
+  /* Program */
+  .program {
+    text-align: center;
+  }
 }
 
 /* Custom Grid System - Fix container width */
